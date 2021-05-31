@@ -97,5 +97,5 @@ function doesNotMatchSelectedLocation(value) {
 }
 </script>
 
-<input bind:this={inputField} class={$$props.class} on:change={onChange}
-       on:keydown={onKeyDown} {placeholder} {value} autocomplete="false"/>
+<input type="search" bind:this={inputField} class={$$props.class} on:change={onChange}
+       on:keydown={onKeyDown} {placeholder} {value}/>
